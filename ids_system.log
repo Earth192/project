@@ -1,0 +1,156 @@
+2025-07-01 08:41:56,045 - DetectionEngine - INFO - Detection Engine initialized
+2025-07-01 08:41:56,046 - DetectionEngine - INFO - Generated 2500 samples (2000 normal, 500 attacks)
+2025-07-01 08:41:56,221 - DetectionEngine - INFO - Anomaly detector trained successfully
+2025-07-01 08:41:56,404 - DetectionEngine - INFO - Supervised classifier trained successfully
+2025-07-01 08:41:56,418 - DetectionEngine - INFO - 
+Supervised Model Evaluation:
+              precision    recall  f1-score   support
+
+      Normal       1.00      1.00      1.00      2000
+      Attack       1.00      1.00      1.00       500
+
+    accuracy                           1.00      2500
+   macro avg       1.00      1.00      1.00      2500
+weighted avg       1.00      1.00      1.00      2500
+
+2025-07-01 08:41:56,437 - DetectionEngine - INFO - 
+Anomaly Detection Evaluation:
+              precision    recall  f1-score   support
+
+      Normal       1.00      0.95      0.97      2000
+     Anomaly       0.83      1.00      0.91       500
+
+    accuracy                           0.96      2500
+   macro avg       0.92      0.97      0.94      2500
+weighted avg       0.97      0.96      0.96      2500
+
+2025-07-02 18:49:14,458 - DetectionEngine - INFO - Detection Engine initialized
+2025-07-02 18:49:14,466 - DetectionEngine - INFO - Generated 2500 samples (2000 normal, 500 attacks)
+2025-07-02 18:49:14,631 - DetectionEngine - INFO - Anomaly detector trained successfully
+2025-07-02 18:49:14,817 - DetectionEngine - INFO - Supervised classifier trained successfully
+2025-07-02 18:49:14,834 - DetectionEngine - INFO - 
+Supervised Model Evaluation:
+              precision    recall  f1-score   support
+
+      Normal       1.00      1.00      1.00      2000
+      Attack       1.00      1.00      1.00       500
+
+    accuracy                           1.00      2500
+   macro avg       1.00      1.00      1.00      2500
+weighted avg       1.00      1.00      1.00      2500
+
+2025-07-02 18:49:14,857 - DetectionEngine - INFO - 
+Anomaly Detection Evaluation:
+              precision    recall  f1-score   support
+
+      Normal       1.00      0.95      0.97      2000
+     Anomaly       0.83      1.00      0.91       500
+
+    accuracy                           0.96      2500
+   macro avg       0.92      0.97      0.94      2500
+weighted avg       0.97      0.96      0.96      2500
+
+2025-07-02 20:21:21,951 - DetectionEngine - INFO - Detection Engine initialized
+2025-07-02 20:21:21,953 - DetectionEngine - INFO - Generated 2500 samples (2000 normal, 500 attacks)
+2025-07-02 20:21:22,125 - DetectionEngine - INFO - Anomaly detector trained successfully
+2025-07-02 20:21:22,308 - DetectionEngine - INFO - Supervised classifier trained successfully
+2025-07-02 20:21:22,325 - DetectionEngine - INFO - 
+Supervised Model Evaluation:
+              precision    recall  f1-score   support
+
+      Normal       1.00      1.00      1.00      2000
+      Attack       1.00      1.00      1.00       500
+
+    accuracy                           1.00      2500
+   macro avg       1.00      1.00      1.00      2500
+weighted avg       1.00      1.00      1.00      2500
+
+2025-07-02 20:21:22,351 - DetectionEngine - INFO - 
+Anomaly Detection Evaluation:
+              precision    recall  f1-score   support
+
+      Normal       1.00      0.95      0.97      2000
+     Anomaly       0.83      1.00      0.91       500
+
+    accuracy                           0.96      2500
+   macro avg       0.92      0.97      0.94      2500
+weighted avg       0.97      0.96      0.96      2500
+
+2025-07-02 20:30:31,949 - DetectionEngine - INFO - Detection Engine initialized
+2025-07-02 20:30:31,951 - DetectionEngine - INFO - Generated 2500 samples (2000 normal, 500 attacks)
+2025-07-02 20:30:32,091 - DetectionEngine - INFO - Anomaly detector trained successfully
+2025-07-02 20:30:32,258 - DetectionEngine - INFO - Supervised classifier trained successfully
+2025-07-02 20:30:32,276 - DetectionEngine - INFO - 
+Supervised Model Evaluation:
+              precision    recall  f1-score   support
+
+      Normal       1.00      1.00      1.00      2000
+      Attack       1.00      1.00      1.00       500
+
+    accuracy                           1.00      2500
+   macro avg       1.00      1.00      1.00      2500
+weighted avg       1.00      1.00      1.00      2500
+
+2025-07-02 20:30:32,300 - DetectionEngine - INFO - 
+Anomaly Detection Evaluation:
+              precision    recall  f1-score   support
+
+      Normal       1.00      0.95      0.97      2000
+     Anomaly       0.83      1.00      0.91       500
+
+    accuracy                           0.96      2500
+   macro avg       0.92      0.97      0.94      2500
+weighted avg       0.97      0.96      0.96      2500
+
+2025-07-03 07:45:08,867 - DetectionEngine - INFO - Detection Engine initialized
+2025-07-03 07:45:08,872 - DetectionEngine - INFO - Generated 2500 samples (2000 normal, 500 attacks)
+2025-07-03 07:45:09,068 - DetectionEngine - INFO - Anomaly detector trained successfully
+2025-07-03 07:45:09,252 - DetectionEngine - INFO - Supervised classifier trained successfully
+2025-07-03 07:45:09,275 - DetectionEngine - INFO - 
+Supervised Model Evaluation:
+              precision    recall  f1-score   support
+
+      Normal       1.00      1.00      1.00      2000
+      Attack       1.00      1.00      1.00       500
+
+    accuracy                           1.00      2500
+   macro avg       1.00      1.00      1.00      2500
+weighted avg       1.00      1.00      1.00      2500
+
+2025-07-03 07:45:09,314 - DetectionEngine - INFO - 
+Anomaly Detection Evaluation:
+              precision    recall  f1-score   support
+
+      Normal       1.00      0.95      0.97      2000
+     Anomaly       0.83      1.00      0.91       500
+
+    accuracy                           0.96      2500
+   macro avg       0.92      0.97      0.94      2500
+weighted avg       0.97      0.96      0.96      2500
+
+2025-07-03 07:46:14,388 - DetectionEngine - INFO - Detection Engine initialized
+2025-07-03 07:46:14,391 - DetectionEngine - INFO - Generated 2500 samples (2000 normal, 500 attacks)
+2025-07-03 07:46:14,536 - DetectionEngine - INFO - Anomaly detector trained successfully
+2025-07-03 07:46:14,735 - DetectionEngine - INFO - Supervised classifier trained successfully
+2025-07-03 07:46:14,749 - DetectionEngine - INFO - 
+Supervised Model Evaluation:
+              precision    recall  f1-score   support
+
+      Normal       1.00      1.00      1.00      2000
+      Attack       1.00      1.00      1.00       500
+
+    accuracy                           1.00      2500
+   macro avg       1.00      1.00      1.00      2500
+weighted avg       1.00      1.00      1.00      2500
+
+2025-07-03 07:46:14,767 - DetectionEngine - INFO - 
+Anomaly Detection Evaluation:
+              precision    recall  f1-score   support
+
+      Normal       1.00      0.95      0.97      2000
+     Anomaly       0.83      1.00      0.91       500
+
+    accuracy                           0.96      2500
+   macro avg       0.92      0.97      0.94      2500
+weighted avg       0.97      0.96      0.96      2500
+
