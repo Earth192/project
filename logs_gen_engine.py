@@ -24,6 +24,12 @@ def generate_log_entry():
     device = "firewall-01"
     message = f"Connection {'allowed' if action == 'ALLOW' else 'blocked'} via {protocol}"
 
+    # for ML
+    packet_size = random.randint(64, 3000)                # in bytes
+    packet_rate = random.randint(1, 200)                  # packets per second
+    byte_rate = random.randint(500, 100000)               # bytes per second
+    tcp_flags = random.choice([0, 1, 2, 16])              # e.g., SYN=2, ACK=16
+
     log_dict = {
         "timestamp": timestamp,
         "src_ip": src_ip,
@@ -33,39 +39,47 @@ def generate_log_entry():
         "protocol": protocol,
         "action": action,
         "device": device,
-        "message": message
+        "message": message,
+        "packet_size": packet_size,
+        "packet_rate": packet_rate,
+        "byte_rate": byte_rate,
+        "tcp_flags": tcp_flags
     }
 
     log_text = f"{timestamp} {device}: {action} {protocol} connection from {src_ip}:{src_port} to {dst_ip}:{dst_port}"
 
     return log_text, log_dict
 
-# File paths
-txt_path = os.path.join(log_dir, "firewall_logs.txt")
-json_path = os.path.join(log_dir, "firewall_logs.json")
-csv_path = os.path.join(log_dir, "firewall_logs.csv")
+def generate_logs(count=1000):
+    """Generate firewall logs in text, JSON, and CSV formats."""
+    txt_path = os.path.join(log_dir, "firewall_logs.txt")
+    json_path = os.path.join(log_dir, "firewall_logs.json")
+    csv_path = os.path.join(log_dir, "firewall_logs.csv")
 
-# Open files for writing
-with open(txt_path, "w") as txt_file, \
-     open(json_path, "w") as json_file, \
-     open(csv_path, "w", newline='') as csv_file:
+    with open(txt_path, "w") as txt_file, \
+         open(json_path, "w") as json_file, \
+         open(csv_path, "w", newline='') as csv_file:
 
-    csv_writer = None
+        csv_writer = None
 
-    for _ in range(1000):
-        log_text, log_dict = generate_log_entry()
+        for _ in range(count):
+            log_text, log_dict = generate_log_entry()
 
-        # Write to .txt
-        txt_file.write(log_text + "\n")
+            # Write to .txt
+            txt_file.write(log_text + "\n")
 
-        # Write to .json (newline-delimited)
-        json_file.write(json.dumps(log_dict) + "\n")
+            # Write to .json
+            json_file.write(json.dumps(log_dict) + "\n")
 
-        # Write to .csv
-        if csv_writer is None:
-            csv_writer = csv.DictWriter(csv_file, fieldnames=log_dict.keys())
-            csv_writer.writeheader()
-        csv_writer.writerow(log_dict)
+            # Write to .csv
+            if csv_writer is None:
+                csv_writer = csv.DictWriter(csv_file, fieldnames=log_dict.keys())
+                csv_writer.writeheader()
+            csv_writer.writerow(log_dict)
 
-print(f"✅ Logs generated in: {log_dir}")
-print(f"📄 - Text: firewall_logs.txt\n📄 - JSON: firewall_logs.json\n📄 - CSV : firewall_logs.csv")
+    print(f"✅ Logs generated in: {log_dir}")
+    print(f"📄 - Text: firewall_logs.txt\n📄 - JSON: firewall_logs.json\n📄 - CSV : firewall_logs.csv")
+
+# Generate logs when run directly
+if __name__ == "__main__":
+    generate_logs(1000)

@@ -1,0 +1,62 @@
+2025-08-07 01:59:30,651 - Anomaly detection failed: X has 3 features, but IsolationForest is expecting 5 features as input.
+2025-08-07 01:59:30,652 - Classification failed: X has 3 features, but RandomForestClassifier is expecting 5 features as input.
+2025-08-07 01:59:30,652 - Anomaly detection failed: X has 3 features, but IsolationForest is expecting 5 features as input.
+2025-08-07 01:59:30,653 - Classification failed: X has 3 features, but RandomForestClassifier is expecting 5 features as input.
+2025-08-07 01:59:30,653 - Anomaly detection failed: X has 3 features, but IsolationForest is expecting 5 features as input.
+2025-08-07 01:59:30,654 - Classification failed: X has 3 features, but RandomForestClassifier is expecting 5 features as input.
+2025-08-07 01:59:30,655 - Anomaly detection failed: X has 3 features, but IsolationForest is expecting 5 features as input.
+2025-08-07 01:59:30,655 - Classification failed: X has 3 features, but RandomForestClassifier is expecting 5 features as input.
+2025-08-07 02:11:34,841 - Anomaly detection failed: X has 3 features, but IsolationForest is expecting 5 features as input.
+2025-08-07 02:11:34,841 - Classification failed: X has 3 features, but RandomForestClassifier is expecting 5 features as input.
+2025-08-07 02:11:34,842 - Anomaly detection failed: X has 3 features, but IsolationForest is expecting 5 features as input.
+2025-08-07 02:11:34,842 - Classification failed: X has 3 features, but RandomForestClassifier is expecting 5 features as input.
+2025-08-07 02:11:34,842 - Anomaly detection failed: X has 3 features, but IsolationForest is expecting 5 features as input.
+2025-08-07 02:11:34,843 - Classification failed: X has 3 features, but RandomForestClassifier is expecting 5 features as input.
+2025-08-07 02:11:34,843 - Anomaly detection failed: X has 3 features, but IsolationForest is expecting 5 features as input.
+2025-08-07 02:11:34,847 - Classification failed: X has 3 features, but RandomForestClassifier is expecting 5 features as input.
+2025-08-07 02:12:03,369 - Anomaly detection failed: X has 3 features, but IsolationForest is expecting 5 features as input.
+2025-08-07 02:12:03,370 - Classification failed: X has 3 features, but RandomForestClassifier is expecting 5 features as input.
+2025-08-07 02:12:03,370 - Anomaly detection failed: X has 3 features, but IsolationForest is expecting 5 features as input.
+2025-08-07 02:12:03,370 - Classification failed: X has 3 features, but RandomForestClassifier is expecting 5 features as input.
+2025-08-07 02:12:03,370 - Anomaly detection failed: X has 3 features, but IsolationForest is expecting 5 features as input.
+2025-08-07 02:12:03,371 - Classification failed: X has 3 features, but RandomForestClassifier is expecting 5 features as input.
+2025-08-07 02:12:03,371 - Anomaly detection failed: X has 3 features, but IsolationForest is expecting 5 features as input.
+2025-08-07 02:12:03,371 - Classification failed: X has 3 features, but RandomForestClassifier is expecting 5 features as input.
+2025-08-07 02:21:12,757 - Missing feature: 'byte_rate'
+2025-08-07 02:21:12,758 - Missing feature: 'byte_rate'
+2025-08-07 02:21:12,758 - Missing feature: 'byte_rate'
+2025-08-07 02:23:40,456 - Anomaly detection failed: X has 3 features, but IsolationForest is expecting 5 features as input.
+2025-08-07 02:23:40,457 - Classification failed: X has 3 features, but RandomForestClassifier is expecting 5 features as input.
+2025-08-07 02:23:40,458 - Anomaly detection failed: X has 3 features, but IsolationForest is expecting 5 features as input.
+2025-08-07 02:23:40,458 - Classification failed: X has 3 features, but RandomForestClassifier is expecting 5 features as input.
+2025-08-07 02:23:40,458 - Missing feature: 'byte_rate'
+2025-08-07 02:24:14,201 - Anomaly detection failed: X has 3 features, but IsolationForest is expecting 5 features as input.
+2025-08-07 02:24:14,201 - Classification failed: X has 3 features, but RandomForestClassifier is expecting 5 features as input.
+2025-08-07 02:24:14,202 - Anomaly detection failed: X has 3 features, but IsolationForest is expecting 5 features as input.
+2025-08-07 02:24:14,202 - Classification failed: X has 3 features, but RandomForestClassifier is expecting 5 features as input.
+2025-08-07 02:24:14,203 - Anomaly detection failed: X has 3 features, but IsolationForest is expecting 5 features as input.
+2025-08-07 02:24:14,203 - Classification failed: X has 3 features, but RandomForestClassifier is expecting 5 features as input.
+2025-08-08 05:25:21,505 - Anomaly detection failed: X has 3 features, but IsolationForest is expecting 5 features as input.
+2025-08-08 05:25:21,506 - Classification failed: X has 3 features, but RandomForestClassifier is expecting 5 features as input.
+2025-08-08 05:25:21,507 - Anomaly detection failed: X has 3 features, but IsolationForest is expecting 5 features as input.
+2025-08-08 05:25:21,507 - Classification failed: X has 3 features, but RandomForestClassifier is expecting 5 features as input.
+2025-08-08 05:25:21,508 - Anomaly detection failed: X has 3 features, but IsolationForest is expecting 5 features as input.
+2025-08-08 05:25:21,508 - Classification failed: X has 3 features, but RandomForestClassifier is expecting 5 features as input.
+2025-08-08 05:36:21,122 - Anomaly detection failed: X has 3 features, but IsolationForest is expecting 5 features as input.
+2025-08-08 05:36:21,123 - Classification failed: X has 3 features, but RandomForestClassifier is expecting 5 features as input.
+2025-08-08 05:36:21,124 - Anomaly detection failed: X has 3 features, but IsolationForest is expecting 5 features as input.
+2025-08-08 05:36:21,124 - Classification failed: X has 3 features, but RandomForestClassifier is expecting 5 features as input.
+2025-08-08 05:36:21,124 - Anomaly detection failed: X has 3 features, but IsolationForest is expecting 5 features as input.
+2025-08-08 05:36:21,125 - Classification failed: X has 3 features, but RandomForestClassifier is expecting 5 features as input.
+2025-08-08 05:57:08,199 - Anomaly detection failed: X has 3 features, but IsolationForest is expecting 5 features as input.
+2025-08-08 05:57:08,200 - Classification failed: X has 3 features, but RandomForestClassifier is expecting 5 features as input.
+2025-08-08 05:57:08,200 - Anomaly detection failed: X has 3 features, but IsolationForest is expecting 5 features as input.
+2025-08-08 05:57:08,201 - Classification failed: X has 3 features, but RandomForestClassifier is expecting 5 features as input.
+2025-08-08 05:57:08,201 - Anomaly detection failed: X has 3 features, but IsolationForest is expecting 5 features as input.
+2025-08-08 05:57:08,201 - Classification failed: X has 3 features, but RandomForestClassifier is expecting 5 features as input.
+2025-08-08 06:04:15,932 - Anomaly detection failed: X has 3 features, but IsolationForest is expecting 5 features as input.
+2025-08-08 06:04:15,932 - Classification failed: X has 3 features, but RandomForestClassifier is expecting 5 features as input.
+2025-08-08 06:04:15,933 - Anomaly detection failed: X has 3 features, but IsolationForest is expecting 5 features as input.
+2025-08-08 06:04:15,933 - Classification failed: X has 3 features, but RandomForestClassifier is expecting 5 features as input.
+2025-08-08 06:04:15,934 - Anomaly detection failed: X has 3 features, but IsolationForest is expecting 5 features as input.
+2025-08-08 06:04:15,934 - Classification failed: X has 3 features, but RandomForestClassifier is expecting 5 features as input.
